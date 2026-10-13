@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ownership_proof",
+    "title": "Ownership Proof",
+    "description": "Sale deed, gift deed, or registered document proving ownership."
+  },
+  {
+    "id": "712_extract",
+    "title": "7/12 Extract or Property Card",
+    "description": "Latest 7/12 extract from Talathi or Property Card (PR card) from City Survey office."
+  },
+  {
+    "id": "na_order",
+    "title": "N.A. Order",
+    "description": "Non-Agricultural (N.A.) usage permission order from the Collector."
+  },
+  {
+    "id": "architect_certificate",
+    "title": "Licensed Architect's Certificate",
+    "description": "Certificate from PMC licensed Architect / Engineer."
+  },
+  {
+    "id": "structural_certificate",
+    "title": "Structural Stability Certificate",
+    "description": "Certificate from licensed Structural Engineer."
+  },
+  {
+    "id": "fire_noc",
+    "title": "Fire NOC",
+    "description": "No Objection Certificate from the Fire Department (if applicable)."
+  },
+  {
+    "id": "tree_noc",
+    "title": "Tree NOC",
+    "description": "No Objection Certificate from the Tree Authority (if applicable)."
+  },
+  {
+    "id": "drainage_noc",
+    "title": "Drainage NOC",
+    "description": "NOC from PMC Drainage department for connection."
+  }
+]

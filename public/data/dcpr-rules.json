@@ -1,0 +1,60 @@
+{
+  "_source": "Development Control and Promotion Regulations for Pune Municipal Corporation, 2017 (DCPR-2017)",
+  "_scope": "Applies to old PMC limits only. Does NOT apply to PCMC or PMRDA areas.",
+  
+  "setback_table_non_congested": {
+    "rows": [
+      { "road_width_desc": "Roads 24m and above", "min_road_width": 24, "max_road_width": null, "min_plot_size_sqm": 300, "min_front_setback_m": 4.5, "min_side_margin_m": 3.0, "min_rear_margin_m": 3.0 },
+      { "road_width_desc": "Roads below 24m up to 18m", "min_road_width": 18, "max_road_width": 24, "min_plot_size_sqm": 250, "min_front_setback_m": 4.5, "min_side_margin_m": 3.0, "min_rear_margin_m": 3.0 },
+      { "road_width_desc": "Roads below 18m up to 15m", "min_road_width": 15, "max_road_width": 18, "min_plot_size_sqm": 250, "min_front_setback_m": 3.0, "min_side_margin_m": 2.25, "min_rear_margin_m": 2.25 },
+      { "road_width_desc": "Roads below 15m and above 9m", "min_road_width": 9.0001, "max_road_width": 15, "min_plot_size_sqm": 150, "min_front_setback_m": 3.0, "min_side_margin_m": 1.5, "min_rear_margin_m": 1.5 },
+      { "road_width_desc": "Roads up to 9m", "min_road_width": 0, "max_road_width": 9.0001, "min_plot_size_sqm": 100, "min_front_setback_m": 3.0, "min_side_margin_m": 1.5, "min_rear_margin_m": 1.5 }
+    ]
+  },
+
+  "setback_table_congested": {
+    "rows": [
+      { "road_width_desc": "Streets/lane less than 4.5m", "min_road_width": 0, "max_road_width": 4.5, "residential_m": "2.25 from centre of street/lane" },
+      { "road_width_desc": "Streets 4.5m to less than 6.00m", "min_road_width": 4.5, "max_road_width": 6, "residential_m": "NIL" },
+      { "road_width_desc": "Streets 6.00m to less than 12m", "min_road_width": 6, "max_road_width": 12, "residential_m": "1.5" },
+      { "road_width_desc": "Streets 12m to less than 18m", "min_road_width": 12, "max_road_width": 18, "residential_m": "1.5" },
+      { "road_width_desc": "Streets 18m and above", "min_road_width": 18, "max_road_width": null, "residential_m": "1.5" }
+    ]
+  },
+
+  "fsi_table_non_congested": {
+    "rows": [
+      { "road_width": "Below 9.0m", "min_road_width": 0, "max_road_width": 9, "basic_fsi": 1.10, "max_building_potential": 1.10 },
+      { "road_width": "9.00m to upto 12.00m", "min_road_width": 9, "max_road_width": 12, "basic_fsi": 1.10, "max_building_potential": 1.80 },
+      { "road_width": "12.00m to upto 18.00m", "min_road_width": 12, "max_road_width": 18, "basic_fsi": 1.10, "max_building_potential": 2.25 },
+      { "road_width": "18.00m to upto 24.00m", "min_road_width": 18, "max_road_width": 24, "basic_fsi": 1.10, "max_building_potential": 2.50 },
+      { "road_width": "24.00m to upto 30.00m", "min_road_width": 24, "max_road_width": 30, "basic_fsi": 1.10, "max_building_potential": 2.75 },
+      { "road_width": "30.00m and above", "min_road_width": 30, "max_road_width": null, "basic_fsi": 1.10, "max_building_potential": 3.00 }
+    ]
+  },
+
+  "fsi_table_congested": {
+    "rows": [
+      { "road_width": "Below 9.0m", "min_road_width": 0, "max_road_width": 9, "basic_fsi": 1.50, "max_building_potential": 1.50 },
+      { "road_width": "9.00m to upto 12.00m", "min_road_width": 9, "max_road_width": 12, "basic_fsi": 2.00, "max_building_potential": 2.00 },
+      { "road_width": "12.00m to upto 18.00m", "min_road_width": 12, "max_road_width": 18, "basic_fsi": 2.00, "max_building_potential": 2.25 },
+      { "road_width": "18.00m to upto 24.00m", "min_road_width": 18, "max_road_width": 24, "basic_fsi": 2.00, "max_building_potential": 2.50 },
+      { "road_width": "24.00m to upto 30.00m", "min_road_width": 24, "max_road_width": 30, "basic_fsi": 2.00, "max_building_potential": 2.75 },
+      { "road_width": "30.00m and above", "min_road_width": 30, "max_road_width": null, "basic_fsi": 2.00, "max_building_potential": 3.00 }
+    ]
+  },
+
+  "height": {
+    "rule": "Building height is not a flat number — it is allowed to whatever extent is needed to consume the maximum building potential (FSI) permitted, subject to other restrictions and Chief Fire Officer approval where required."
+  },
+
+  "parking": {
+    "rows": [
+      { "congested_only": true, "max_plot_area": 200, "condition": "Congested area, plot up to 200 sq.m, tenement below 40 sq.m.", "min_area": 0, "max_area": 40, "spaces_per": "2 tenements", "car": 0, "scooter": 2, "cycle": 4 },
+      { "condition": "Tenement carpet area 150 sq.m. and above", "min_area": 150, "max_area": null, "spaces_per": "1 tenement", "car": 3, "scooter": 2, "cycle": 2 },
+      { "condition": "Tenement carpet area 80–150 sq.m.", "min_area": 80, "max_area": 150, "spaces_per": "1 tenement", "car": 2, "scooter": 2, "cycle": 2 },
+      { "condition": "Tenement carpet area 40–80 sq.m.", "min_area": 40, "max_area": 80, "spaces_per": "2 tenements", "car": 2, "scooter": 4, "cycle": 2 },
+      { "condition": "Tenement carpet area below 40 sq.m.", "min_area": 0, "max_area": 40, "spaces_per": "2 tenements", "car": 1, "scooter": 4, "cycle": 4 }
+    ]
+  }
+}
